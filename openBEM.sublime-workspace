@@ -1,0 +1,939 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"snode",
+				"snode_array"
+			],
+			[
+				"element",
+				"element_calc"
+			],
+			[
+				"Norma",
+				"Normal_Jac"
+			],
+			[
+				"nnode",
+				"nnode_el"
+			],
+			[
+				"gauss_in",
+				"gauss_integration_3D_sing"
+			],
+			[
+				"fre",
+				"frequency"
+			],
+			[
+				"prepa",
+				"prepare_step"
+			],
+			[
+				"ste",
+				"step_type"
+			],
+			[
+				"curr",
+				"currentLine"
+			],
+			[
+				"bem_ma",
+				"bem_matrix_allocate"
+			],
+			[
+				"bem",
+				"bem_matrix_allocate"
+			],
+			[
+				"bem_mat",
+				"bem_matrix_deallocate"
+			],
+			[
+				"chun",
+				"chunk_create_node_coordinates"
+			],
+			[
+				"gaussq",
+				"gaussquad_rect"
+			],
+			[
+				"elastic",
+				"elastic_complexVelocity"
+			],
+			[
+				"elast",
+				"elastic_complexVelocity"
+			],
+			[
+				"psi",
+				"psi_3"
+			],
+			[
+				"integratio",
+				"integration_pt"
+			],
+			[
+				"BEM",
+				"BEM_computation"
+			],
+			[
+				"gauss",
+				"gauss_integration_2D"
+			],
+			[
+				"num_element",
+				"num_elementset"
+			],
+			[
+				"bem_comp",
+				"bem_comp_for_gaussPoint"
+			],
+			[
+				"lagran",
+				"lagrangian_1D_standard"
+			],
+			[
+				"elem",
+				"element_calc"
+			],
+			[
+				"lagra",
+				"lagrangian_2D_standard"
+			],
+			[
+				"num",
+				"num_node"
+			],
+			[
+				"mode",
+				"model_create_material_HDFInput"
+			],
+			[
+				"h5g",
+				"h5gclose_f"
+			],
+			[
+				"crea",
+				"create_elastic_material_hdf5"
+			],
+			[
+				"create_elas",
+				"create_elastic_material"
+			],
+			[
+				"mesh",
+				"mesh_create_elements_HDFINPUT"
+			],
+			[
+				"get",
+				"get_scalar_attribute_hdf5_char"
+			],
+			[
+				"mesh_crea",
+				"mesh_create_nodes_HDFInput"
+			],
+			[
+				"model_cr",
+				"model_create_from_hdfInput"
+			],
+			[
+				"group",
+				"group_name"
+			],
+			[
+				"mdb_",
+				"mdb_read_scalar_integer_attribute_hdf5"
+			],
+			[
+				"mem",
+				"memtype_id"
+			],
+			[
+				"read",
+				"readInput_HDF"
+			],
+			[
+				"node_c",
+				"node_coord_array"
+			],
+			[
+				"comple",
+				"complex_wave_velocity"
+			],
+			[
+				"matrix",
+				"matrix_size_assign"
+			],
+			[
+				"create",
+				"create_step"
+			],
+			[
+				"allocate",
+				"allocate_global_matrix"
+			],
+			[
+				"computation",
+				"computation_type"
+			],
+			[
+				"globa",
+				"global_matrix"
+			],
+			[
+				"rec",
+				"reciprocal_displacement_singular"
+			],
+			[
+				"reci",
+				"reciprocal_displacement"
+			],
+			[
+				"ass",
+				"assign_eltype_to_element"
+			],
+			[
+				"elm",
+				"elm_type_id"
+			],
+			[
+				"eltype",
+				"eltype_entry"
+			],
+			[
+				"node",
+				"nodeset"
+			],
+			[
+				"bem_chun",
+				"bem_chunk_matrix_BEM_allocate"
+			],
+			[
+				"materia",
+				"material_ref"
+			],
+			[
+				"mater",
+				"material_ref"
+			],
+			[
+				"maet",
+				"material_"
+			],
+			[
+				"elasti",
+				"elastic_material_create"
+			],
+			[
+				"num_",
+				"num_eltype"
+			],
+			[
+				"bem_super",
+				"bem_superelement_assign"
+			],
+			[
+				"bem_",
+				"bem_superelement_assign"
+			],
+			[
+				"in",
+				"integer"
+			],
+			[
+				"alloca",
+				"allocate_b_chunk"
+			],
+			[
+				"gr",
+				"group_id_m"
+			],
+			[
+				"data",
+				"data_dims"
+			],
+			[
+				"model",
+				"model_name"
+			],
+			[
+				"file",
+				"file_id"
+			],
+			[
+				"h5a",
+				"h5aclose_f"
+			],
+			[
+				"attr",
+				"attr_id"
+			],
+			[
+				"input",
+				"input_model"
+			],
+			[
+				"domain",
+				"domain_type"
+			],
+			[
+				"type",
+				"type_def"
+			],
+			[
+				"re",
+				"reciprocal_traction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/mdl_main.f08",
+			"settings":
+			{
+				"buffer_size": 4022,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/solver.f08",
+			"settings":
+			{
+				"buffer_size": 1580,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inp/firstTry.inp",
+			"settings":
+			{
+				"buffer_size": 32267,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 2387,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				"Clean"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 179.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"fortran",
+				"Build With: MinimalFortran - Run"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"minima",
+				"Build With: MinimalFortran"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"color scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/mbb/Dropbox/Projects/openBEM",
+		"/home/mbb/Dropbox/Projects/openBEM/inp",
+		"/home/mbb/Dropbox/Projects/openBEM/py",
+		"/home/mbb/Dropbox/Projects/openBEM/py/h5rw",
+		"/home/mbb/Dropbox/Projects/openBEM/src"
+	],
+	"file_history":
+	[
+		"/home/mbb/Dropbox/Projects/openBEM/inp/canyonValid.inp",
+		"/home/mbb/Dropbox/Projects/openBEM/inp/firstTry.inp",
+		"/home/mbb/Dropbox/Projects/openBEM/py/pyMain.py",
+		"/home/mbb/Dropbox/Projects/openBEM/py/h5rw/readerASCII_model.py",
+		"/home/mbb/Dropbox/Projects/openBEM/ext/element_computations.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src/element_calc.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/inp/mdlTry_rough.inp",
+		"/home/mbb/Dropbox/Projects/openBEM/src/BEM_elasticity.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/inp/mdlTry_rough.h5",
+		"/home/mbb/Dropbox/Projects/openBEM/src/comp_model.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src/solver.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/Makefile",
+		"/home/mbb/Dropbox/Projects/openBEM/src/mesh.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src/model.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src/funda_elasticity.f08",
+		"/home/mbb/Dropbox/Projects/LayerBEM_2D/BEM_system/fundamental_solution.py",
+		"/home/mbb/Dropbox/Projects/LayerBEM_2D/water_table0.py",
+		"/home/mbb/Dropbox/Projects/openBEM/src_1/input.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src/matOps.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src/mdl_main.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/ext/gaussquad.f90",
+		"/home/mbb/Dropbox/Projects/openBEM/src/element.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src/BEM_elast_new.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src copy/input_model.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src copy/inpuy.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src copy/bem_main.f08",
+		"/home/mbb/Dropbox/Projects/LayerBEM_2D/BEM_system/matrix_ops_2.py",
+		"/home/mbb/Dropbox/Projects/openBEM/src/bem_chunk.f08",
+		"/home/mbb/Dropbox/Projects/LayerBEM_2D/BEM_system/matrix_ops_1.py",
+		"/home/mbb/Dropbox/Projects/openBEM/src/h5interface.f08",
+		"/home/mbb/Dropbox/Projects/LayerBEM_2D/water_table.py",
+		"/home/mbb/Dropbox/Projects/openBEM/src/material.f08",
+		"/home/mbb/Dropbox/Projects/LayerBEM_2D/BEM_system/BEM_computation.py",
+		"/home/mbb/Dropbox/Projects/openBEM/src/comp_step.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src/BEM_computation.f08",
+		"/home/mbb/Dropbox/Projects/LayerBEM_2D/BEM_system/wave_and_material.py",
+		"/home/mbb/Dropbox/Projects/openBEM/src_1/bem_computation.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src/funda.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src copy/trial.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/ext/special_functions.f90",
+		"/home/mbb/Dropbox/Projects/openBEM/ext/stroud.f90",
+		"/home/mbb/Dropbox/Projects/LayerBEM_2D/BEM_system/element_compution.py",
+		"/home/mbb/Dropbox/Projects/openBEM/src_1/funda_sol_freq_plane.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/ext/legendre_rule_fast.f90",
+		"/home/mbb/Dropbox/Projects/openBEM/ext/fastgl.f90",
+		"/home/mbb/Dropbox/Projects/openBEM/ext/fastgl_prb.f90",
+		"/home/mbb/Dropbox/Projects/openBEM/src copy/module _test.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/inp/mdlTry 1.inp",
+		"/home/mbb/Dropbox/Projects/openBEM/ext/laguerre_rule.f90",
+		"/home/mbb/Dropbox/Projects/openBEM/src/gauss.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/py/readerASCII.py",
+		"/home/mbb/Dropbox/Projects/openBEM/src_1/element_newCOMP.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/inp/mdlTry.inp",
+		"/home/mbb/Dropbox/Projects/openBEM/src/untitled.f",
+		"/home/mbb/Dropbox/Projects/openBEM/src/BEM_comp.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/src_1/element_calc.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/ext/element_computations.f90",
+		"/home/mbb/Dropbox/Projects/openBEM/hdf5_for/h5ex.f90",
+		"/home/mbb/Dropbox/Projects/openBEM/other/fundamental_solution.f08",
+		"/home/mbb/Dropbox/Projects/openBEM/inp/mdlTry.h5",
+		"/home/mbb/Dropbox/Projects/openBEM/other/element_sub.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/mdb.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/h5interface.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/Makefile",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/mesh.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/model.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/h5_rdwt.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/h5_crtdat.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/try_main.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/h5_crtatt.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/compound_complex_fortran2003.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/h5_crtgrp.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/h5_crtgrpd.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/Makefile_reference1",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/hyperslab.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/selectele.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/nested_derived_type.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/py/pyMain.py",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/h5_extend.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/h5ex_t_intatt_F03.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/read_inputFile_HDF5.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src_1/element_calc.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src_1/element.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/compound_fortran2003.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/rwdset_fortran2003.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/py/readerASCII.py",
+		"/Users/mbb/Google Drive/Projects/openBEM/py/myfile.hdf5",
+		"/Users/mbb/Google Drive/Projects/openBEM/lib/elm_lib.dat",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/h5_subset.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/hdf5_for/BEM.sublime-project",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/material.f08",
+		"/Users/mbb/Google Drive/fortran_archives/antiplane.f90",
+		"/Users/mbb/Google Drive/fortran_archives/material.f90",
+		"/Users/mbb/Google Drive/fortran_archives/trytry.f08",
+		"/Users/mbb/Google Drive/fortran_archives/try.f03",
+		"/Users/mbb/Google Drive/fortran_archives/step.f03",
+		"/Users/mbb/Google Drive/fortran_archives/special_functions.f90",
+		"/Users/mbb/Google Drive/fortran_archives/planefreq.f03",
+		"/Users/mbb/Google Drive/fortran_archives/part.f03",
+		"/Users/mbb/Google Drive/fortran_archives/node_.mod",
+		"/Users/mbb/Google Drive/fortran_archives/node.f03",
+		"/Users/mbb/Google Drive/fortran_archives/material_.mod",
+		"/Users/mbb/Google Drive/Projects/openBEM/src_1/mesh.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src_1/model.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src_1/root_main.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src copy/model_main.f08",
+		"/Users/mbb/Google Drive/fortran_archives/BEMmain.f03",
+		"/Users/mbb/Google Drive/fortran_archives/model.f03",
+		"/Users/mbb/Google Drive/fortran_archives/openBEM/src/model.f08",
+		"/Users/mbb/Google Drive/fortran_archives/antiplane/Makefile",
+		"/Users/mbb/Google Drive/fortran_archives/element.f03",
+		"/Users/mbb/Google Drive/fortran_archives/openBEM/src/bem_main.f08",
+		"/Users/mbb/Google Drive/fortran_archives/openBEM/Makefile",
+		"/Users/mbb/Google Drive/Projects/openBEM/src copy/bem_main.f08",
+		"/Users/mbb/Google Drive/fortran_archives/openBEM/py/BEM_main.py",
+		"/Users/mbb/Google Drive/fortran_archives/openBEM/inp/firstTry.inp",
+		"/Users/mbb/Google Drive/Projects/openBEM/src_1/bem_chunk.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/step.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/element_calc.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/ext/element_computations.f90",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/bem_chunk.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/root_main.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/element.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/input.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/inp/firstTry.inp",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/bem_computation.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src copy/input_model.f08",
+		"/Users/mbb/Google Drive/Projects/openBEM/src/system_matrix.f08"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"/Users/mbb/Dropbox/Projects/openBEM,<current file>",
+			"/Users/mbb/Dropbox/Projects/openBEM,<open files>",
+			"/Users/mbb/Dropbox/Projects/openBEM",
+			"/Users/mbb/Dropbox/Projects/openBEM,<current file>",
+			"/Users/mbb/Dropbox/Projects/openBEM",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"5",
+			"!\n",
+			"Hs_temp",
+			"num_step",
+			"0",
+			"bem_chunk",
+			"this%elm_nodes",
+			"Gd",
+			"el_connectivity",
+			"triangle",
+			"func",
+			"usr",
+			"dstev",
+			"(:)",
+			"node_array",
+			"mgroup_id",
+			"num_nodes",
+			"num_coords",
+			"write",
+			"num_models",
+			"h5err",
+			"optional",
+			"bem_chunks",
+			"comput",
+			"gfortran",
+			"system_matrix.f08",
+			"differentials",
+			"modified bessel",
+			"bessel",
+			"status",
+			"type",
+			"element",
+			"!eltype_entry",
+			"eltype",
+			"87E10",
+			"node",
+			"bb",
+			"mm",
+			"bem_superelement",
+			"group_id_n",
+			"group_id_m",
+			"sds_info",
+			"read",
+			"aread",
+			"read",
+			"aread",
+			"read",
+			"aread",
+			", &",
+			"gfortran",
+			"elem",
+			"nu",
+			"self.VelRatio**2",
+			"[0]",
+			"[1]",
+			"dr_dn",
+			"rDiff",
+			"eta[1]",
+			"eta[0]"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bchunk",
+			"this%elm_nodeConnectivity",
+			"this%elm_nodes",
+			"node",
+			"file_id",
+			"hdferr",
+			"h5fc",
+			"elm_def",
+			"element_definition",
+			"eltype_entry",
+			"jj",
+			"ii",
+			"bem_chunk",
+			"node_grp_id",
+			" model_grp_id",
+			" ",
+			"h5fc",
+			"sq_velRatio",
+			"(1)",
+			"(2)",
+			"r_n",
+			"r_i",
+			"v_norm(2)",
+			"v_norm(1)"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/mbb/Dropbox/Projects/openBEM"
+		},
+		{
+			"path": "/home/mbb/Dropbox/Projects/LayerBEM_2D"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/mdl_main.f08",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3319,
+								3319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MinimalFortran/MinimalFortran.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1458.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/solver.f08",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1400,
+								1400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MinimalFortran/MinimalFortran.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inp/firstTry.inp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25697,
+								25697
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10710.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.603100104834,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 225.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Fortran/build-systems/GFortran.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
