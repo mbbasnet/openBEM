@@ -21,9 +21,14 @@ def radius_param(col_pt, int_pt):
 if(True):
     '''
     gauss integration for node element pair
+    For normal case (no singularity)
     '''
     # Reset the local G and H matrices for new element
+    G = 0.0
+    Hs = 0.0
+    H = 0.0
 
+    # For normal element node pair (node outside element)
     for xsi in gauss_pt:
 
         # Calculate element parameters
