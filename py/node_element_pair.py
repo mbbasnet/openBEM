@@ -57,8 +57,10 @@ def bem_elm_eldyn():
         G += np.dot(Uf,elm_par)
         Hs += np.dot(Tdf,elm_par)
         H += np.dot(Ts,elm_par)
+    
+    return G, Hs, H
         
-def bem_elm_eldyn_q3_start():
+def bem_elm_eldyn_st():
     '''
     Computes element BEM matrices for each element node pair
     for collocation node start node of the quadratic element
@@ -68,9 +70,9 @@ def bem_elm_eldyn_q3_start():
     Hs = 0.0
     H = 0.0
     
-    
-    # Calculation of non-singular part of G matrix and H matrix
-    for xsi in gauss_pt:
+    # singular part
+    for eta in gauss_pt_log: 
+        xsi = 2*eta-1 #eta = (1+xsi)/2 => xsi = 2*eta-1 # for start node
 
         # Calculate element parameters
         Ni = serendip_1D(xsi, inci) # Shape function
@@ -82,7 +84,29 @@ def bem_elm_eldyn_q3_start():
         drn = np.dot(dxr, Un) # dr/dn
         
         # Calculate reciprocal displacement and tractions for normal case (no singularity)
-        funda.calculateDisplacementSN(r, dxr, NDZ)
+        funda.calculateDisplacementSS()
+        
+        # create local variables of reciprocal displacement and tractions
+        Uss = funda.DisplacementSS
+        
+        # Calculate singular part of G matrix
+        elm_par += jac*gauss_wt*Ni
+        G += np.dot(Uss,elm_par)
+        
+    # non-singular part
+    for xsi in gauss_pt:
+        eta = (1+xsi)/2 #eta = (1+xsi)/2 => xsi = 2*eta-1 # fro start node 
+        # Calculate element parameters
+        Ni = serendip_1D(xsi, inci) # Shape function
+        jac, Un = jac_normal_1D(xsi, inci, elcoord) # Jacobian and unit normal
+        int_pt = np.matmul(Ni, elcoord) # Cartesian coordinate at the integration point
+
+        # Calculate radius r and derivative dx/dr = [dx1/dr, dx2/dr] between collocation and integration points
+        r, dxr = radius_param(ncoord, int_pt)
+        drn = np.dot(dxr, Un) # dr/dn
+        
+        # Calculate reciprocal displacement and tractions for normal case (no singularity)
+        funda.calculateDisplacementSN(r, dxr, eta)
         funda.calculateTraction_dyn(r, dxr, Un, drn)
         funda.calculateTraction_st(r, dxr, Un, drn)
         
@@ -96,4 +120,84 @@ def bem_elm_eldyn_q3_start():
         G += np.dot(Uf,elm_par)
         Hs += np.dot(Tdf,elm_par)
         H += np.dot(Ts,elm_par)
+        
+    return G, Hs, H
+        
+        
+def bem_elm_eldyn_end():
+    '''
+    Computes element BEM matrices for each element node pair
+    for collocation node end node of the quadratic element
+    '''
+    # Reset/initialize the local G and H matrices for new element
+    G = 0.0
+    Hs = 0.0
+    H = 0.0
+
+    # singular part
+    for eta in gauss_pt_log: 
+        xsi = 2*eta+1 #eta = (xsi-1)/2 => xsi = 2*eta+1 # for end node 
+
+        # Calculate element parameters
+        Ni = serendip_1D(xsi, inci) # Shape function
+        jac, Un = jac_normal_1D(xsi, inci, elcoord) # Jacobian and unit normal
+        int_pt = np.matmul(Ni, elcoord) # Cartesian coordinate at the integration point
+
+        # Calculate radius r and derivative dx/dr = [dx1/dr, dx2/dr] between collocation and integration points
+        r, dxr = radius_param(ncoord, int_pt)
+        drn = np.dot(dxr, Un) # dr/dn
+        
+        # Calculate reciprocal displacement and tractions for normal case (no singularity)
+        funda.calculateDisplacementSS()
+        
+        # create local variables of reciprocal displacement and tractions
+        Uss = funda.DisplacementSS
+        
+        # Calculate singular part of G matrix
+        elm_par += jac*gauss_wt*Ni
+        G += np.dot(Uss,elm_par)
+        
+    # non-singular part
+    for xsi in gauss_pt:
+        eta = (xsi-1)/2 #eta = (xsi-1)/2 => xsi = 2*eta+1 # fro start node 
+        # Calculate element parameters
+        Ni = serendip_1D(xsi, inci) # Shape function
+        jac, Un = jac_normal_1D(xsi, inci, elcoord) # Jacobian and unit normal
+        int_pt = np.matmul(Ni, elcoord) # Cartesian coordinate at the integration point
+
+        # Calculate radius r and derivative dx/dr = [dx1/dr, dx2/dr] between collocation and integration points
+        r, dxr = radius_param(ncoord, int_pt)
+        drn = np.dot(dxr, Un) # dr/dn
+        # Calculate element parameters
+        Ni = serendip_1D(xsi, inci) # Shape function
+        jac, Un = jac_normal_1D(xsi, inci, elcoord) # Jacobian and unit normal
+        int_pt = np.matmul(Ni, elcoord) # Cartesian coordinate at the integration point
+        # Calculate reciprocal displacement and tractions for normal case (no singularity)
+        funda.calculateDisplacementSN(r, dxr, eta)
+        funda.calculateTraction_dyn(r, dxr, Un, drn)
+        funda.calculateTraction_st(r, dxr, Un, drn)
+        
+        # create local variables of reciprocal displacement and tractions
+        Uf = funda.displacement
+        Tdf = funda.Traction_dyn
+        Ts = funda.Traction_st
+        
+        # Calculate G and H matrices
+        elm_par += jac*gauss_wt*Ni
+        G += np.dot(Uf,elm_par)
+        Hs += np.dot(Tdf,elm_par)
+        H += np.dot(Ts,elm_par)
+        
+    return G, Hs, H
+
+def bem_elm_eldyn_int():
+    '''
+    Computes element BEM matrices for each element node pair
+    for collocation node intermediate node of the quadratic element
+    '''
+            
+    # The element should be divided into two parts
+    # 0----A------2-------B------1
+    # lets divide the element into 
+        
         
